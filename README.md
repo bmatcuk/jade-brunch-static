@@ -5,6 +5,8 @@ Compile static jade files with brunch.
 
 jade-brunch-static is a processor for [html-brunch-static](https://github.com/bmatcuk/html-brunch-static), a [brunch](http://brunch.io/) plugin designed to handle static html files. jade-brunch-static can convert jade files into static html files with html-brunch-static's support for layouts and partial views.
 
+If you're looking for support for the latest version of jade, now called "pug", check out [pug-brunch-static](https://github.com/bmatcuk/pug-brunch-static).
+
 ## Installation
 jade-brunch-static depends on [html-brunch-static](https://github.com/bmatcuk/html-brunch-static), which also depends on [brunch-static](https://github.com/bmatcuk/brunch-static), so, you will need to install all three. The recommended method is via npm:
 
