@@ -8,7 +8,7 @@
     "jade",
     "html"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/bmatcuk/jade-brunch-static",
   "license": "MIT",
   "repository": {
@@ -16,19 +16,15 @@
     "url": "bmatcuk/jade-brunch-static"
   },
   "scripts": {
-    "prepublish": "brunch build -P",
-    "start": "brunch watch",
-    "test": "mocha"
+    "prepare": "brunch build -p",
+    "start": "brunch watch"
   },
   "dependencies": {
     "jade": "^1.11.0",
-    "lodash.merge": "^3.3.2"
+    "lodash.merge": "^4.6.1"
   },
   "devDependencies": {
-    "brunch": "^1.8.5",
-    "chai": "^3.2.0",
-    "coffee-script-brunch": "^1.8.2",
-    "javascript-brunch": "^1.7.1",
-    "mocha": "^2.3.0"
+    "brunch": "~2.10.17",
+    "coffee-script-brunch": "~3.0.0"
   }
 }

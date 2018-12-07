@@ -13,6 +13,9 @@ exports.config =
     wrapper: false
     definition: false
 
+  npm:
+    enabled: false
+
   sourceMaps: false
 
   overrides:
